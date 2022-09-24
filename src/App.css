@@ -1,38 +1,149 @@
+
+body{
+  background-color: rgba(126, 231, 100, 0.589);
+  background-attachment: fixed;
+}
+
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  background-color: blueviolet;
+  padding: 20px;
+  margin: auto;
+}
+.home-link{
+  text-decoration: none;
+  font-size: 35px;
+  color: rgb(236, 216, 28);
 }
 
-.App-link {
-  color: #61dafb;
+.studentD{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 226px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.table1{
+  border: 3px solid rgb(110, 214, 40);
+  background-color: rgba(29, 120, 156, 0.728);
+  border-collapse: collapse;
+  color: rgb(3, 3, 3);
+  width: 50%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 70px auto;
+}
+.tablecon tr{
+  text-align: center;
+  padding: 100px;
+  /* border-collapse: collapse; */
+  border: 2px solid rgb(160, 146, 146);
+}
+.student-progress{
+  position: relative;
+  float: right;
+  margin-top: 50px;
+  margin-right: 250px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+  border:none;
+  cursor: pointer;
+  background-color: #7cd11ae5;
+  color: rgb(0, 0, 0);;
+  font-family: 'Caveat', cursive;
+  padding: 8px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  text-align: center;
+}
+.inpt1{
+  padding: 30px;
+  width: 30%;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  border-radius: 10px;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: rgba(245, 241, 229, 0.582);
+}
+.Form-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.form-submit{
+  width: 180px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 680px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #25d216;
+  color: rgb(0, 0, 0);;
+  box-shadow: 0px 14px 10px #38d235d2;
+  font-family: 'Caveat', cursive;
+  cursor: pointer;
+}
+
+.form-submit:hover{
+  background-color: rgb(67, 190, 42);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 10px #4cb636d2;
+  font-weight: bold;
+}
+.form-clear{
+  width: 180px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Caveat', cursive;
+  background-color: #efbc17ea;
+  color: rgb(0, 0, 0);;
+  box-shadow: 0px 14px 10px #bcbc46d2;
+  /* font-size: 15px; */
+  cursor: pointer;
+}
+.form-clear:hover{
+  background-color: rgba(25, 126, 226, 0.779);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 10px #4d9b9ed2;
+  font-weight: bold;
+}
+.btn-btn-danger{
+  background-color: #25d216;
+  color: #000000;
+  width: 80px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  cursor: pointer;
+
+}
+.edit-btn{
+  background-color: #25d216;
+  color: #000000;
+  width: 80px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  cursor: pointer;
 }
